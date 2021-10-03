@@ -1,0 +1,3 @@
+//todo:
+	make a portfolio
+	basis: https://realmartinzane.github.io/portfolio/#/about
