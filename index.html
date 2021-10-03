@@ -4,11 +4,94 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>King Paul | Portfolio</title>
+    <title>Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400&family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-      <div class="container">
-          
+    <nav class="navbar navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="images/brand_logo.jpg" alt="" width="30" height="24" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">PORTFOLIO</a>
+            </li>
+          </ul>
+        </div>
       </div>
+    </nav>
+    <div class="container">
+      <div class="row justify-content-center align-items-center">
+        <div
+          id="intro"
+          class="
+            col-lg-10
+            d-flex
+            flex-column
+            justify-content-center
+            align-items-center
+            text-center
+          "
+        >
+          <h1 class="display-1">KING PAUL PULGARES</h1>
+          <p class="lead sub">MABAIT AT MACHO</p>
+          <button class="btn btn-dark">VIEW PROJECTS</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="links"></div>
+
+    <div id="mainFooter">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 footer-items d-block d-lg-flex text-center">
+            <p>&copy; 2021 King Paul Pulgares. All Rights Reserved.</p>
+            <p>
+              Email:
+              <span
+                ><a href="mailto:paulpulgares24@gmail.com"
+                  >paulpulgares24@gmail.com</a
+                ></span
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
