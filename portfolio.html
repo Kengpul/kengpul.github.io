@@ -74,7 +74,7 @@
         <div class="col-md-6">
           <div class="box">
             <img
-              class="img-fluid"
+              class="img-fluid img-preview"
               src="https://raw.githubusercontent.com/Kengpul/3-column-preview-card-component/master/design/desktop-preview.jpg"
               alt="3-column-preview-card-component"
             />
@@ -83,11 +83,11 @@
             <!-- Button trigger modal -->
             <button
               type="button"
-              class="btn btn-primary"
+              class="btn"
               data-bs-toggle="modal"
               data-bs-target="#staticBackdrop"
             >
-              Launch static backdrop modal
+              <i class="fas fa-eye"></i> VIEW PROJECT
             </button>
 
             <!-- Modal -->
@@ -100,21 +100,33 @@
               aria-labelledby="staticBackdropLabel"
               aria-hidden="true"
             >
-              <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-dialog modal-dialog-centered modal-lg">
                 <div class="modal-content">
                   <div class="modal-body">
                     <div class="container-fluid">
                       <div class="row">
-                        //TODO: Modal content
-                        <div class="col-6">
+                        <!-- //TODO: Modal content -->
+
+                        <div class="col-md-6 img-modal">
                           <img
                             src="https://raw.githubusercontent.com/Kengpul/3-column-preview-card-component/master/design/desktop-preview.jpg"
                             alt=""
                           />
                         </div>
-                        <div class="col-6">
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
+                        <div class="col-md-6">
+                          <h3>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Ab, iure, blanditiis ipsa nobis magni atque
+                            illum accusantium provident neque a praesentium
+                            assumenda corporis! Recusandae repellat molestiae
+                            qui praesentium distinctio fuga?
+                          </h3>
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
                         </div>
                       </div>
                     </div>
@@ -122,19 +134,19 @@
                 </div>
               </div>
             </div>
-
-            <!--  -->
           </div>
         </div>
 
-        <div class="col-md-6">
-          <div class="box"></div>
-        </div>
-
-        <div class="col-md-6">
-          <div class="box"></div>
-        </div>
+        <!--  -->
       </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="box"></div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="box"></div>
     </div>
 
     <div id="links">
