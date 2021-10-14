@@ -77,3 +77,13 @@ img {
 .footer-items {
   justify-content: space-around;
 }
+
+.nav-item {
+  z-index: 2;
+  margin-top: -20px;
+}
+.nav-link {
+  width: 10rem;
+  float: right;
+  border-radius: 5px;
+}
